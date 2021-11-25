@@ -1,0 +1,62 @@
+/**{
+    margin: 0;
+    padding: 0;
+}*/
+
+body {
+background-color: #a6ccff;
+}
+
+h1 {
+    margin: 4rem  0 2rem 4rem;
+    color: #421510;
+}
+h3 {
+    margin-left: 4rem;
+    padding-bottom: 2rem;
+    color: #421510;
+}
+
+fieldset {
+    width: 20%;
+    margin: 1rem 0 1rem 4rem;
+    padding: 1rem;
+}
+.message {
+    height: 5rem;
+}
+
+input {
+    background-color: #f3eae8;
+}
+
+
+p {
+    margin-left: 4rem;
+    background-color: #8cc47b;
+    width: 15%;
+    text-align: center;
+    padding: 1rem;
+    color: #421510;
+}
+
+button {
+    margin: .5rem 0 2rem 4rem;
+    background-color: #fffaf2;
+    padding: .5rem;
+}
+
+a { 
+    text-decoration: none;
+    color:#d48525;
+}
+
+footer {
+    background-color: #421510;
+    width: 100%;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding: 2rem;
+    color: #fffaf2;
+    text-align: center;
+}
