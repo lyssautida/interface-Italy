@@ -1,62 +1,123 @@
-/**{
-    margin: 0;
-    padding: 0;
-}*/
+* {
+  margin: 0;
+  padding: 0;
+}
 
+head,
 body {
-background-color: #a6ccff;
+  background-color: #6db8d5;
+  /* background-color: #8ea2f9; */
 }
 
 h1 {
-    margin: 4rem  0 2rem 4rem;
-    color: #421510;
+  padding: 4rem 0 0 4rem;
+  text-align: center;
+  color: #421510;
 }
 h3 {
-    margin-left: 4rem;
-    padding-bottom: 2rem;
-    color: #421510;
+  margin-left: 4rem;
+  padding: 2rem;
+  text-align: left;
+  color: #421510;
 }
 
 fieldset {
-    width: 20%;
-    margin: 1rem 0 1rem 4rem;
-    padding: 1rem;
-}
-.message {
-    height: 5rem;
+  width: 16rem;
+  margin: 1rem 0 1rem 4rem;
+  padding: 2.3rem;
+  background-color: #9fcede;
+
+  justify-items: center;
+  border-radius: 4px;
 }
 
 input {
-    background-color: #f3eae8;
+  padding: 0.5rem;
+  background-color: #f3edea;
+  border-radius: 4px;
+}
+.message {
+  padding: 0.5rem 0.5rem 4.5rem 0.5rem;
 }
 
-
 p {
-    margin-left: 4rem;
-    background-color: #8cc47b;
-    width: 15%;
-    text-align: center;
-    padding: 1rem;
-    color: #421510;
+  margin-left: 4rem;
+  background-color: #ad9551;
+  width: 19rem;
+  height: 1.5rem;
+  text-align: center;
+  padding: 1rem;
+  color: #421510;
+  border-radius: 4px;
 }
 
 button {
-    margin: .5rem 0 2rem 4rem;
-    background-color: #fffaf2;
-    padding: .5rem;
+  margin: 2rem 0 2rem 4rem;
+  background-color: #fffaf2;
+  padding: 1rem;
+  border-radius: 4px;
+  width: 8.7rem;
 }
 
-a { 
-    text-decoration: none;
-    color:#d48525;
+a {
+  text-decoration: none;
+  color: #d48525;
+  font-weight: bold;
 }
 
 footer {
-    background-color: #421510;
-    width: 100%;
-    margin-bottom: 0;
-    margin-left: 0;
-    padding: 2rem;
-    color: #fffaf2;
-    text-align: center;
+  background-color: #421510;
+  width: 100%;
+  margin-bottom: 0;
+  margin-left: 0;
+  /* margin-top: 2rem; */
+  padding: 1.5rem;
+  color: #d48525;
+  text-align: center;
+}
+
+header {
+  margin: 0;
+  background-color: #d48525;
+  padding: 0;
+  width: 100%;
+}
+
+fieldset ul {
+  margin: 2rem;
+}
+
+.main section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  padding: 4rem;
+  width: 100%;
+}
+.boxes2 {
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.banner {
+  display: inline-block;
+  justify-content: right;
+  position: relative;
+  margin: 2rem 10rem;
+  padding: 1rem;
+}
+
+.bottom {
+  margin-top: 1rem;
+}
+
+legend {
+  font-weight: bold;
+}
+
+h4 {
+  margin-bottom: 1rem;
 }
